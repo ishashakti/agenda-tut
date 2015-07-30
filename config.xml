@@ -13,5 +13,6 @@ Ejemplo de agenda.
 Isolde Ruano
 </author>
 <gap:plugin name="org.apache.cordova.dialogs"/>
+<preference name="phonegap-version" value="3.3.0" />
 
 </widget>
