@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.agendita.app"
+    version   = "1.0.0">
+
+<name>Mi agendita</name>
+
+<description>
+Buscardor de contacto
+</description>
+
+<gap:platform name="android" />
+<gap:plugin name="org.apache.cordova.dialogs" />
+
+<author href="http://www.pixeladas.com" email="krshna108@gmail.com">
+
+</author>
+
+</widget>
