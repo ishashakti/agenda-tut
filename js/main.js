@@ -24,7 +24,7 @@ mkLog("Aplicacion cargada");
             
 
 existe_db=window.localStorage.getItem("existe_db");
-db=window.openDatabase("mi_agendita","1.0","Base de dato de mi agenda", 200000);
+db=window.openDatabase("agenda_curso","1.0","Base de dato de mi agenda", 200000);
 if(existe_db == null){
 	creaDB();
 	
@@ -37,7 +37,7 @@ function creaDB(){
 function creaNuevaDB(tx){
 	mkLog("Creando base de datos");
 	
-	tx.executeSql("DROP TABLE IF EXISTS mi_agendita");
+	tx.executeSql("DROP TABLE IF EXISTS agenda_curso");
 	
 var sql = "CREATE TABLE IF NOT EXISTS agenda_curso ( "+
 		"id INTEGER PRIMARY KEY AUTOINCREMENT, " +
