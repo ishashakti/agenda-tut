@@ -1,5 +1,5 @@
 // JavaScript Document
- {       
+ function onBodyLoad(){       
             document.addEventListener("deviceready", onDeviceReady, false);
  }
 
